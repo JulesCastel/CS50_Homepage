@@ -1,0 +1,82 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+body {
+    background-color: LightSteelBlue;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+ul {
+    list-style-type: none;
+    color: inherit;
+}
+
+#music-icons {
+    padding-top: 10px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+ul#music-icons li {
+    display: inline;
+}
+
+ul#music-icons img {
+    display: inline;
+    width: 20%;
+}
+
+.body-text {
+    margin: 8px;
+}
+
+.body-text a {
+    color: inherit;
+}
+
+.body-text h1 {
+    text-align: center;
+}
+
+.body-content {
+    display: block;
+    max-width: 900px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #212529;
+    color: #9b9d9e;
+}
+
+.footer-text {
+    padding-left: 10px;
+    padding-bottom: 8px;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
